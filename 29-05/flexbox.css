@@ -1,6 +1,7 @@
 .flex-container {
     display: flex;
     background-color: rgb(136, 127, 255);
+    border-radius: 5px;
 }
 
 .flex-container > div{
