@@ -5,7 +5,7 @@ function testhtml1(){
         var b= 75;
         console.log(b);   
     }
-harsh1;
+    harsh1();
 };
 testhtml1();
 
