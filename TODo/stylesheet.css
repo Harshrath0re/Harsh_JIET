@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input[type="text"]{
+    border: 2px plum;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button{
+    border-radius: 10px;
+    border: 2px plum;
+    position: relative;
+    left: 50%;
+    color: wheat;
+    background-color: tomato;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+
+}
