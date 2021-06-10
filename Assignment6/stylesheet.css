@@ -1,0 +1,67 @@
+body {
+    background-image: url(./images/image.jpg);
+    width: 2255px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.heading {
+    border: 3px solid rgba(0, 0, 0, 0.479);
+    width: 400px;
+    height: 75px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 620px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(74, 95, 211, 0.589);
+    padding-bottom: 7px;
+    border-radius: 20px;
+}
+
+table,
+th,
+td {
+    border: 3px solid rgba(202, 192, 48, 0.575);
+    float: left;
+    background-color: rgba(21, 24, 190, 0.411)
+}
+
+input[type=text] {
+    width: 350px;
+    height: 50px;
+    font-size: large;
+}
+
+.value {
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+input.value:hover {
+    background-color: rgba(7, 30, 160, 0.52);
+}
+
+input[type=button] {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 60px;
+    font-size: 10px;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 400px;
+    margin-left: 600px;
+    margin-right: 400px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
