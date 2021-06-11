@@ -38,8 +38,8 @@ app.post("/login", (req,res) =>{
     }
 });
 
-const PORT =7000;
+const PORT =9000;
 
 app.listen(PORT, () => {
-    console.log(`MY server is running on port 7000`);
+    console.log(`MY server is running on port 9000`);
 });
