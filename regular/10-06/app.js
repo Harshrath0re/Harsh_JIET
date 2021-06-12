@@ -20,7 +20,7 @@ mongoose
 
 app.use(userRoute);
 
-const PORT = 9077;
+const PORT = 9009;
 
 app.listen(PORT, () => {
   console.log(`The server is running on port: ${PORT}`);
