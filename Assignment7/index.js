@@ -39,7 +39,7 @@ app.use((error, req, res, next) => {
 //    res.send({page: "Login", message: "Please submit your credentials!!"});
 //  });
 
-mongoose.connect("mongodb://localhost:27017/jiet", {
+mongoose.connect("mongodb://localhost:27017/blog_database", {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }).then(() => {
