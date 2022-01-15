@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+
+.header-icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header-center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header-center > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  width: 500px;
+}
+
+.header-center:hover {
+  border: 1px solid #3030ee;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+}
+
+.register {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}

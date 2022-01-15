@@ -1,0 +1,124 @@
+.loginbody {
+  background-color: white;
+  text-align: right;
+  height: 550px;
+  padding: 80px;
+  color: black;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font: 30px "Segoe UI", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+#box1 {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 240px;
+  padding: 10px;
+  padding-left: 20px;
+  margin: auto;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+label {
+  text-align: left;
+  color: rgb(14, 1, 1);
+  font: 20px sans-serif;
+  font-weight: 5px;
+}
+
+#label {
+  text-align: left;
+}
+
+input {
+  background-color: white;
+  font: 20px sans-serif;
+  border: 2px solid;
+  border-radius: 12px;
+  margin-top: 6px;
+  padding: 1px 15px;
+  margin-top: 30px;
+}
+
+input:hover {
+  border-color: blue;
+}
+
+form {
+  text-align: center;
+}
+
+#a1 {
+  color: #fdfdfd;
+  font: 10px sans-serif;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+#a2:hover {
+  text-decoration: underline;
+}
+
+button {
+  font: 30px sans-serif;
+  width: 150px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5px;
+  align-items: center;
+  margin-right: 80px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+#box2 {
+  color: white;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#a2 {
+  color: #000000;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+}
+
+#link {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(17, 1, 1);
+}
+
+.blue {
+  color: #58a6ff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#a3 {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.blue:hover {
+  text-decoration: underline;
+}
+
+#a3:hover {
+  text-decoration: underline;
+}
